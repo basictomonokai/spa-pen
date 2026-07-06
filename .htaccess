@@ -1,0 +1,17 @@
+# htaccessの設定例です。
+# 1. SiteGuardのシグネチャ検知をすべて除外（実績のある直接記述）
+SiteGuard_User_ExcludeSig all
+
+# 2. データベースファイルへの直接URLアクセスを禁止
+<Files "playground.sqlite">
+    Order allow,deny
+    Deny from all
+</Files>
+
+# 3. 管理画面 (index.php) のみに基本認証を適用
+<Files "index.php">
+    AuthUserFile /home/users/.htpasswd
+    AuthName "SPA-Pen"
+    AuthType Basic
+    require valid-user
+</Files>
