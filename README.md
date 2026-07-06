@@ -2,6 +2,9 @@
 
 A lightweight Single Page Application (SPA) playground and showcase tool powered by PHP and SQLite3.
 
+<img width="1910" height="1023" alt="image" src="https://github.com/user-attachments/assets/e1718039-c65c-43d6-ad11-1f19958d9158" />
+
+
 PHPとSQLite3で動作する、軽量なシングルページアプリケーション（SPA）の開発・保存・公開用プレイグラウンドです。
 フロントエンドツール（HTML/Vanilla JS/CSS）を安全に蓄積し、第三者へ共有リンクで公開することができます。
 
